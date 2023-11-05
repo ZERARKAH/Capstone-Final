@@ -30,9 +30,13 @@ The dataset contains 10,000 entries and 10 columns:
 **Torque [Nm]:** Torque in Newton-meters  
 **Tool wear [min]:** Tool wear in minutes  
 **Target:** Target variable (presumably whether the machine fails or not)  
-**Failure Type:** Type of failure, if any  
-
-
+**Failure Type:** Type of failure, if any.  
+1. **Air temperature [K]:** Ranges from 295.3 to 304.5 Kelvin with a mean of approximately 300.0.
+2. **Process temperature [K]:** Ranges from 305.7 to 313.8 Kelvin with a mean of approximately 310.0.
+3. **Rotational speed [rpm]:** Ranges from 1168 to 2886 RPM with a mean of approximately 1539.
+4. **Torque [Nm]:** Ranges from 3.8 to 76.6 Nm with a mean of approximately 40.0.
+5. **Tool wear [min]:** Ranges from 0 to 253 minutes with a mean of approximately 108.
+6. **Target:** It's either 0 or 1, and it appears that most of the values are 0, indicating that failures are relatively rare
 
 
 
