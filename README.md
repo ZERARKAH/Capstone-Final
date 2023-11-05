@@ -30,3 +30,24 @@ The dataset contains 10,000 entries and 10 columns:
 **Tool wear [min]:** Tool wear in minutes  
 **Target:** Target variable (presumably whether the machine fails or not)  
 **Failure Type:** Type of failure, if any  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
