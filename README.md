@@ -15,7 +15,8 @@ In the rapidly evolving manufacturing landscape, machine downtimes can result in
 
 # 2- Data Understanding
 
-Our dataset encompasses 10,000 instances across 7 features, pivotal to predicting machine failures. The average air temperature hovers around 300 K, with a process temperature approximately 10 K higher, suggesting a controlled operational environment. Rotational speeds and torque values exhibit considerable variability, essential for understanding performance thresholds. Notably, the 'Target' variable indicates that machine failures occur in 3.39% of instances, underscoring the significance of addressing class imbalance. Our visual and statistical analyses reveal no missing values, ensuring robustness in subsequent modeling stages. Correlation heatmaps further delineate relationships between features, with the aim of refining predictive accuracy.
+Our dataset encompasses 10,000 data points, each representing a unique machine operation instance with 14 features. These features provide insights into various machine parameters, including air temperature, process temperature, rotational speed, torque, tool wear, and the type of product being processed. Additionally, the dataset has a binary 'machine failure' label, indicating if a machine failed for that particular instance. Preliminary analysis revealed that most features follow a normal distribution, with some showing potential correlations with machine failures. Understanding the distributions, relationships, and potential data quality issues is crucial. This ensures that our subsequent modeling phase is grounded on a solid foundation of knowledge, enabling us to make informed decisions during data preprocessing and feature engineering.
+
 ### 2-1 Data Description
 
 The dataset contains 10,000 entries and 10 columns:
