@@ -55,7 +55,13 @@ Important Observations:
 ### 3- Data Preparation 
 #### 3-1 Feature Engineering 
 
-I built a predictive model using the dataset with class imbalance initially. After that, I resolved the imbalance issue, retrained the model with the balanced data, and made a comparison to understand the effect of class distribution on the model's performance.
+ Initially, the dataset presented a skewed distribution, with the majority of observations representing non-failure states. Recognizing the potential bias this could introduce in predictive modeling, we undertook an over-sampling strategy to balance the classes. This approach effectively equalized the presence of both 'failure' and 'non-failure' instances in the training data, thereby providing a more equitable learning landscape for our models.
+
+<img width="451" alt="Screenshot 2023-11-05 at 9 21 00 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/e44efadd-90b8-4490-83eb-063985300d27">
+<img width="446" alt="Screenshot 2023-11-05 at 9 22 15 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/09c715e7-dd57-42d8-933e-42fc84730e04">
+
+<img width="452" alt="Screenshot 2023-11-05 at 9 21 49 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/8a2d97ba-bb14-49e6-9c9a-557e167bf02f">
+
 
 
 
