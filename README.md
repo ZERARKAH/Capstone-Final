@@ -45,11 +45,17 @@ Our data exploration entailed detailed analysis of key features, presented throu
 
  <img width="313" alt="Screenshot 2023-11-05 at 2 39 23 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/48ed0ac1-133b-4f21-8a73-eecb33b7077c"> <img width="313" alt="Screenshot 2023-11-05 at 2 39 36 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/34df5471-194a-4341-9435-bdcd6a679de1"><img width="693" alt="Screenshot 2023-10-08 at 3 40 08 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/8d7a979d-ade0-48c9-ac45-511bb64a55fa"> <img width="413" alt="Screenshot 2023-11-05 at 2 35 50 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/4cb16ba3-2f1e-42ca-809d-f0062c61db15"><img width="413" alt="Screenshot 2023-11-05 at 2 39 53 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/074ec437-4be5-4599-b133-7495950e5b3f">
 <img width="582" alt="Screenshot 2023-11-05 at 2 49 31 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/3be69a62-1134-417b-88c4-8ca30b60bd65">
+
+Important Observations:
+
 - There are no missing values in the dataset. All columns have zero missing entries.​​
+- Based on the heatmap, it seems that there are no extremely strong correlations between the features.
+- Addressing the class imbalance can improve the model's ability to predict the minority class (machine failures in this case) more accurately.
 
 ### 3- Data Preparation 
 #### 3-1 Feature Engineering 
 
+I built a predictive model using the dataset with class imbalance initially. After that, I resolved the imbalance issue, retrained the model with the balanced data, and made a comparison to understand the effect of class distribution on the model's performance.
 
 
 
