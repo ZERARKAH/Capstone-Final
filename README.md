@@ -60,10 +60,10 @@ Important Observations:
 <img width="451" alt="Screenshot 2023-11-05 at 9 21 00 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/e44efadd-90b8-4490-83eb-063985300d27">
 <img width="446" alt="Screenshot 2023-11-05 at 9 22 15 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/09c715e7-dd57-42d8-933e-42fc84730e04">
 
-<img width="452" alt="Screenshot 2023-11-05 at 9 21 49 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/8a2d97ba-bb14-49e6-9c9a-557e167bf02f">
+<img width="452" alt="Screenshot 2023-11-05 at 9 21 49 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/8a2d97ba-bb14-49e6-9c9a-557e167bf02f"> 
 
-
-
+- In summary, the meticulous steps taken to address class imbalance and unravel feature characteristics have set a robust foundation for constructing predictive models with enhanced accuracy and reliability. As we progress, these models are anticipated to evolve into pivotal tools in the domain of predictive maintenance, driving down downtime and fostering proactive maintenance strategies.
+- In the data preparation step, we encoded the categorical variables and standardized the numerical features. 
 
 
 
