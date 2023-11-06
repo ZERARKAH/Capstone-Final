@@ -52,8 +52,8 @@ Important Observations:
 - Based on the heatmap, it seems that there are no extremely strong correlations between the features.
 - Addressing the class imbalance can improve the model's ability to predict the minority class (machine failures in this case) more accurately.
 
-### 3- Data Preparation 
-#### 3-1 Feature Engineering 
+#### -  Analyzing new data structure
+ 
 
  Initially, the dataset presented a skewed distribution, with the majority of observations representing non-failure states. Recognizing the potential bias this could introduce in predictive modeling, we undertook an over-sampling strategy to balance the classes. This approach effectively equalized the presence of both 'failure' and 'non-failure' instances in the training data, thereby providing a more equitable learning landscape for our models.
 
@@ -63,11 +63,12 @@ Important Observations:
 <img width="452" alt="Screenshot 2023-11-05 at 9 21 49 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/8a2d97ba-bb14-49e6-9c9a-557e167bf02f"> 
 
 - In summary, the meticulous steps taken to address class imbalance and unravel feature characteristics have set a robust foundation for constructing predictive models with enhanced accuracy and reliability. As we progress, these models are anticipated to evolve into pivotal tools in the domain of predictive maintenance, driving down downtime and fostering proactive maintenance strategies.
-- In the data preparation step, we encoded the categorical variables and standardized the numerical features. 
 
 
+## 3- Data Preparation
 
-
+- In the data preparation step, we encoded the categorical variables and standardized the numerical features.
+- The features have been standardized to have a mean of 0 and a standard deviation of 1, which is important for models that are sensitive to the scale of the data, such as logistic regression and SVM. The dataset was split into training and testing sets with a stratification on the target variable to maintain the class distribution, which is crucial given the imbalance in the target variable.
 
 
 
