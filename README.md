@@ -68,7 +68,14 @@ Important Observations:
 ## 3- Data Preparation
 
 - In the data preparation step, we encoded the categorical variables and standardized the numerical features.
-- The features have been standardized to have a mean of 0 and a standard deviation of 1, which is important for models that are sensitive to the scale of the data, such as logistic regression and SVM. The dataset was split into training and testing sets with a stratification on the target variable to maintain the class distribution, which is crucial given the imbalance in the target variable.
+- The dataset was divided into 80% training and 20% testing sets.
+- The class balancing via over-sampling has been completed. Now, the shapes of the training features and targets after balancing are:
+
+Balanced training features (X_train_balanced): 15,458 samples, 5 features
+Balanced training target (y_train_balanced): 15,458 samples
+This shows that the minority class samples have been duplicated to match the number of the majority class, thereby balancing the dataset for training purposes. This can help improve the model's performance on the minority class by giving more examples of the failure cases for the model to learn from.​
+
+
 
 
 
