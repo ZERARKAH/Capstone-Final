@@ -75,6 +75,14 @@ Balanced training features (X_train_balanced): 15,458 samples, 5 features
 Balanced training target (y_train_balanced): 15,458 samples
 This shows that the minority class samples have been duplicated to match the number of the majority class, thereby balancing the dataset for training purposes. This can help improve the model's performance on the minority class by giving more examples of the failure cases for the model to learn from.​
 
+## 4- Model Building
+
+- Since we have a binary classification problem—predicting whether a machine will fail (1) or not (0)—we can use various algorithms like:
+
+1. Logistic Regression
+2. Random Forest
+3. Gradient Boosting
+4. Support Vector Machines (SVM)
 
 
 
