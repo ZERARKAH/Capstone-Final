@@ -131,9 +131,13 @@ Here are the additional steps that were taken to thoroughly evaluate and finaliz
 
 **The Random Forest model**, while not having the highest recall, achieves a good balance across all metrics, making it a robust choice for predictive maintenance. **Gradient Boosting** and **SVM** show strengths in certain areas and could be considered depending on the specific cost of false positives and false negatives in a real-world setting. **Logistic Regression**, despite its high recall, has a low precision, which indicates a higher number of false positives.​
 
+<img width="306" alt="Screenshot 2023-11-06 at 5 11 50 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/0c946532-604c-4029-939e-a54ffce301a3"><img width="302" alt="Screenshot 2023-11-06 at 5 12 11 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/3fa5b8c8-245b-409c-9f15-3e6e594ecd53">
 
+From the matrices, we can observe the following for each model:
 
-
+- The models vary in their TP and FN rates, indicating differences in sensitivity.
+- The FP rates also vary, indicating differences in how often each model incorrectly predicts a failure when there's none. This could lead to different levels of maintenance costs if these predictions were used in a real-world setting.
+These insights helped guide the selection of **the Random forest model** that balances the cost of false alarms against the risk and cost of missed failure detections, which is a key consideration in predictive maintenance strategies.​
 
 
 
