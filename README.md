@@ -100,8 +100,15 @@ The Random Forest and Gradient Boosting classifiers show the highest accuracy am
 
 **For the balanced Dataset:**
 
+The target variable was highly imbalanced. We used over-sampling to balance the classes in the training datase.  
+
 - Logistic Regression Accuracy: 82.1%  
 - Random Forest Accuracy: 98.35%   
 - Gradient Boosting Accuracy: 93.2% 
 - SVM Accuracy (Support Vector Machine): 91.25%  
 
+<img width="643" alt="Screenshot 2023-11-06 at 3 48 26 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/2d9093b7-2e0b-421c-a945-fca5b37482a9">
+
+## Conclusion
+
+This visualization makes it straightforward to assess the impact of class balancing on model accuracy. The annotations provide an immediate quantitative understanding of the changes in accuracy for each model due to the balancing process. As expected, the accuracy for most models decreases slightly when the data is balanced, which is common due to the increase in false positives that comes with addressing class imbalance. However, this trade-off is often acceptable, especially in predictive maintenance scenarios, because it is typically more critical to correctly identify the minority class instances (failures) even at the cost of some false alarms. The goal is to ensure that the models do not miss potential failures, which can have significant consequences.
