@@ -139,7 +139,7 @@ From the matrices, we can observe the following for each model:
 - The FP rates also vary, indicating differences in how often each model incorrectly predicts a failure when there's none. This could lead to different levels of maintenance costs if these predictions were used in a real-world setting.
 These insights helped guide the selection of **the Random forest model** that balances the cost of false alarms against the risk and cost of missed failure detections, which is a key consideration in predictive maintenance strategies.​
 
-
+### Feature Importance
 
 
 
