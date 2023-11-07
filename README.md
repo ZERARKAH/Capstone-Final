@@ -115,11 +115,14 @@ This visualization makes it straightforward to assess the impact of class balanc
 
 # 5- Evaluation
 
+Here are the additional steps that were taken to thoroughly evaluate and finalize the model:
 
+- Evaluation of Additional Metrics: Precision, Recall, F1-Score, and AUC-ROC were used to assess the model's capability in accurately classifying the minority class.
+- Analysis of Feature Importance: An examination of the most significant features in making predictions was conducted.
 
+<img width="654" alt="Screenshot 2023-11-06 at 4 43 07 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/84456231-b610-495e-bd0a-ac7f6b3a8276">
 
-
-
+**The Random Forest model**, while not having the highest recall, achieves a good balance across all metrics, making it a robust choice for predictive maintenance. **Gradient Boosting** and **SVM** show strengths in certain areas and could be considered depending on the specific cost of false positives and false negatives in a real-world setting. **Logistic Regression**, despite its high recall, has a low precision, which indicates a higher number of false positives.​
 
 
 
