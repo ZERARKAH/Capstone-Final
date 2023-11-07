@@ -109,7 +109,7 @@ The target variable was highly imbalanced. We used over-sampling to balance the 
 
 <img width="643" alt="Screenshot 2023-11-06 at 3 48 26 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/2d9093b7-2e0b-421c-a945-fca5b37482a9">
 
-## Conclusion
+### Conclusion
 **The Random Forest model (98.35% accuracy**) shows the highest accuracy among the models tested.  
 This visualization makes it straightforward to assess the impact of class balancing on model accuracy. The annotations provide an immediate quantitative understanding of the changes in accuracy for each model due to the balancing process. As expected, the accuracy for most models decreases slightly when the data is balanced, which is common due to the increase in false positives that comes with addressing class imbalance. However, this trade-off is often acceptable, especially in predictive maintenance scenarios, because it is typically more critical to correctly identify the minority class instances (failures) even at the cost of some false alarms. The goal is to ensure that the models do not miss potential failures, which can have significant consequences.
 
@@ -121,6 +121,13 @@ Here are the additional steps that were taken to thoroughly evaluate and finaliz
 - Analysis of Feature Importance: An examination of the most significant features in making predictions was conducted.
 
 <img width="654" alt="Screenshot 2023-11-06 at 4 43 07 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/84456231-b610-495e-bd0a-ac7f6b3a8276">
+
+### Random Forest:
+**Accuracy:** Very high at 98.35%, indicating a good balance of true positives and negatives.
+**ROC AUC:** Excellent score of 0.955, showing strong discrimination capability.
+**Precision:** High at 80.7%, indicating fewer false positives.
+**Recall:** Good at 67.6%, a majority of positive class (failures) are being detected.
+**F1-Score:** Strong at 73.6%, showing a good balance between precision and recall.
 
 **The Random Forest model**, while not having the highest recall, achieves a good balance across all metrics, making it a robust choice for predictive maintenance. **Gradient Boosting** and **SVM** show strengths in certain areas and could be considered depending on the specific cost of false positives and false negatives in a real-world setting. **Logistic Regression**, despite its high recall, has a low precision, which indicates a higher number of false positives.​
 
