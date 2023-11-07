@@ -143,6 +143,7 @@ These insights helped guide the selection of **the Random forest model** that ba
 
 <img width="652" alt="Screenshot 2023-11-06 at 5 36 40 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/2d84959f-208f-46f9-bdb5-7d5a4a0d6d18">
 
+
 <img width="650" alt="Screenshot 2023-11-06 at 5 37 18 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/f7428e6c-d745-4f5e-8faa-995bb543d094">
 
 <img width="654" alt="Screenshot 2023-11-06 at 5 37 36 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/f854eda1-3823-4940-81bd-20e01a3b2981">
