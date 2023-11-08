@@ -146,6 +146,14 @@ These insights helped guide the selection of **the Random forest model** that ba
 <img width="652" alt="Screenshot 2023-11-06 at 5 36 40 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/2d84959f-208f-46f9-bdb5-7d5a4a0d6d18">
 
 - The model suggests that "**Torque**,**"Rotational speed**," and **"Tool wear"** are the most important features in predicting machine failure, according to the **Random Forest model**. This is aligned with what might be expected in a predictive maintenance scenario — factors that directly indicate the performance and stress on the machine are critical indicators of its health.
+- 
+### Predictive Maintenance Workflow with Thresholds
+  
+- Exploring the Random Forest model's feature importance has been instrumental in identifying the key predictors of machine failure: torque **(32.4%)**, rotational speed **(31.3%)**, and tool wear **(22.0%)**. By establishing thresholds of **60 Nm** for **torque**, **1400 RPM** for **rotational speed**, and **200 minutes** for **tool wear**, we can predict failures with a refined model that boasts an impressive accuracy of **97.65%**. This method proves critical for predictive maintenance, marrying data-driven insights with practical thresholds to preemptively flag potential machine failures. The model's default threshold of **0.5 **optimizes **precision** **(81.03%)** and **recall (69.12%)**, with an **F1 score of 74.60%**. **Cross-validation** endorses the model's consistency, with an **average accuracy of** **97.61%** and a low variability **(standard deviation of 0.18%)**, attesting to its robustness in a real-world setting.
+
+
+
+
   
 
 <img width="650" alt="Screenshot 2023-11-06 at 5 37 18 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/f7428e6c-d745-4f5e-8faa-995bb543d094">
