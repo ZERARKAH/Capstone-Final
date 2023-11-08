@@ -145,6 +145,8 @@ These insights helped guide the selection of **the Random forest model** that ba
 
 <img width="652" alt="Screenshot 2023-11-06 at 5 36 40 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/2d84959f-208f-46f9-bdb5-7d5a4a0d6d18">
 
+- The model suggests that "**Torque**,**"Rotational speed**," and **"Tool wear"** are the most important features in predicting machine failure, according to the **Random Forest model**. This is aligned with what might be expected in a predictive maintenance scenario — factors that directly indicate the performance and stress on the machine are critical indicators of its health.
+  
 
 <img width="650" alt="Screenshot 2023-11-06 at 5 37 18 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/f7428e6c-d745-4f5e-8faa-995bb543d094">
 
