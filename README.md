@@ -160,16 +160,21 @@ These insights helped guide the selection of **the Random forest model** that ba
 
 
   
+### Model Ensembling:
 
-
-
-
-
+- I explored ensemble methods that combine the predictions from multiple models to improve the overall performance.
+- Techniques such as stacking, bagging, or Adaboosting can be effective in creating a more robust predictive model.
 
 
 <img width="651" alt="Screenshot 2023-11-06 at 5 38 52 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/29d9077d-e9a4-4250-9b3f-02c518c85242">
 
+## Conclusion
 
+In our analysis, balancing the dataset corrected a significant class imbalance, resulting in a notable performance boost across our machine learning models. Post-balancing, the Random Forest model's accuracy increased, reflecting an enhanced ability to predict rare failure events.
+
+Through extensive evaluation, including Stratified K-Fold cross-validation, we ensured the reliability of our models, with the Random Forest model demonstrating consistent accuracy above 98%. Ensemble techniques like stacking and AdaBoost further refined our predictions. Stacking, with a Logistic Regression meta-learner, yielded an accuracy of 98.55%, while AdaBoost, using Random Forest as the base, achieved 98.5%.
+
+Ultimately, by combining balanced data, strategic model selection, and robust validation methods, we developed a predictive maintenance model with high accuracy, ready to aid in effective maintenance planning.
 
 
 
