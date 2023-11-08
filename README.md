@@ -84,7 +84,7 @@ This shows that the minority class samples have been duplicated to match the num
 3. Gradient Boosting
 4. Support Vector Machines (SVM)
 
-<img width="443" alt="Screenshot 2023-11-06 at 3 05 58 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/9ebc7bf0-562f-4580-8daa-33d9e7af1d0a"> <img width="443" alt="Screenshot 2023-11-06 at 3 10 22 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/81091c37-3187-4161-9028-f5e8fc6ad36c">
+
 
 **For the imbalanced Dataset:**
 
@@ -94,7 +94,9 @@ This shows that the minority class samples have been duplicated to match the num
 
 - Gradient Boosting: 98.45%  
  
-- SVM (Support Vector Machine): 97.2%  
+- SVM (Support Vector Machine): 97.2%
+
+  <img width="443" alt="Screenshot 2023-11-06 at 3 05 58 PM" src="https://github.com/ZERARKAH/Capstone-Final/assets/130615319/9ebc7bf0-562f-4580-8daa-33d9e7af1d0a"> 
 
 The Random Forest and Gradient Boosting classifiers show the highest accuracy among the models tested. However, considering the class imbalance mentioned earlier, accuracy might not be the best metric to fully understand the performance of the models. It's possible for a model to predict "No Failure" for all instances and still achieve high accuracy due to the imbalance.
 
